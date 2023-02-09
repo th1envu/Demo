@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Demo_Arch.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="mynavbar">
+        <div class="bar">
+            <a href="#" class="home"><b>BR</b> Architects</a>
+            <div class="items">
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <header class="content">
+        <img class="image" src="img/architect.jpg" alt="">
+        <div class="middle">
+            <h1>
+                <span class="br padding text-white opacity"><b>BR</b></span> <span class="arch text-white">Architects</span>
+            </h1>
+        </div>
+    </header>
+
+    <div class="content padding" id="projects"> 
+        <div class="pcontainer padding">
+            <h3 class="padding-16 border-bottom">Projects</h3>
+        </div>
+        <div class="row">
+            <div class="prox">
+                <div class="topleft padding">Summer House</div>
+                <img src="img/house5.jpg" alt="">
+            </div>
+            <div class="prox">
+                <div class="topleft padding">Brick House</div>
+                <img src="img/house2.jpg" alt="">
+            </div>
+            <div class="prox">
+                <div class="topleft padding">Renovated</div>
+                <img src="img/house3.jpg" alt="">
+            </div>
+            <div class="prox">
+                <div class="topleft padding">Barn House</div>
+                <img src="img/house4.jpg" alt="">
+            </div>
+            <div class="prox">
+                <div class="topleft padding">Summer House</div>
+                <img src="img/house2.jpg" alt="">
+            </div>
+            <div class="prox">
+                <div class="topleft padding">Brick House</div>
+                <img src="img/house5.jpg" alt="">
+            </div>
+            <div class="prox">
+                <div class="topleft padding">Renovated</div>
+                <img src="img/house4.jpg" alt="">
+            </div>
+            <div class="prox">
+                <div class="topleft padding">Barn House</div>
+                <img src="img/house3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="padding content" id="about">
+        <div class="pcontainer padding">   
+            <h3 class="padding-16 border-bottom">About</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                ex ea commodo consequat.
+            </p>
+        </div>
+    </div>
+
+    <div class="padding content">
+        <div class="row">
+            <div class="c-items">
+                <img src="img/team2.jpg" alt="">
+                <h3>John Doe</h3>
+                <p class="opacity">CEO & Founder</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p><button class="button padding">Contact</button></p>
+            </div>
+            <div class="c-items">
+                <img src="img/team1.jpg" alt="">
+                <h3>Jane Doe</h3>
+                <p class="opacity">Architect</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p><button class="button padding">Contact</button></p>
+            </div>
+            <div class="c-items">
+                <img src="img/team3.jpg" alt="">
+                <h3>Mike Ross</h3>
+                <p class="opacity">Architect</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p><button class="button padding">Contact</button></p>
+            </div>
+            <div class="c-items">
+                <img src="img/team4.jpg" alt="">
+                <h3>Dan Star</h3>
+                <p class="opacity">Architect</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p><button class="button padding">Contact</button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="padding-lr padding-32 content" id="contact">
+        <h3 class="border-bottom padding-16">Contact</h3>
+        <p>Lets get in touch and talk about your next project.</p>
+        <form action="">
+            <input type="text" class="input border" placeholder="Name" required name="Name">
+            <input type="text" class="input border section" placeholder="Email" required name="Email">
+            <input type="text" class="input border section" placeholder="Subject" required name="Subject">
+            <input type="text" class="input border section" placeholder="Comment" required name="Comment">
+            <button class="section bt padding">SEND MESSAGE</button>
+        </form>
+    </div>
+    
+    <div class="padding-lr content">
+        <img src="img/map.jpg" alt="" class="map">
+    </div>
+
+    <footer class="black text-center padding-32">
+        <p>Powered by <a href="#">me</a></p>
+    </footer>
+</body>
+</html>
