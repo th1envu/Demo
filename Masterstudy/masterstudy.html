@@ -17,7 +17,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <!-- ------------ -->
   </head>
   <body>
     <div class="wrapper">
@@ -97,7 +96,7 @@
                 /></a>
               </li>
               <li><a href="#" class="hover-border-bottom">Chính trị</a></li>
-              <li>
+              <li class="thoisu-cha">
                 <a href="#" class="thoisu hover-border-bottom">Thời sự</a>
                 <ul class="submenu submenu-thoisu">
                   <li><a href="#">Quốc hội</a></li>
@@ -256,43 +255,30 @@
         </div>
       </nav>
 
-      <nav class="navbar navbar-expand-xl navbar-light bg-light navbar-inverse">
-        <a class="navbar-brand" href="#"><img style="width: 25px;"
-            class="icon-home"
-            src="https://static.vnncdn.net/v1/icon//home.svg"
-            alt=""
-        /></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
+
+      <nav class="subnav">
+        <input class="toggler" type="checkbox" id="toggle-nav" />
+        <label class="icon-toggler" for="toggle-nav">
+          <div></div>
+          <div></div>
+          <div></div>
+        </label>
+        <div class="ncontainer">
+          <ul class="subnav-items">
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
 
@@ -309,7 +295,7 @@
           <div class="row">
             <div class="blog-main-item padding-bottom-32">
               <div class="blog-main-item-img">
-                <img src="img/cat_1-370x193.jpg" alt="" />
+                <a href="" title="Watch full"><img class="dat-img" src="img/cat_1-370x193.jpg" alt="" /></a>
               </div>
               <div class="date text-center">
                 <p class="date-n">03</p>
@@ -330,10 +316,10 @@
             </div>
             <div class="blog-main-item padding-bottom-32">
               <div class="blog-main-item-img">
-                <img
+                <a title="Watch full" href=""><img class="dat-img"
                   src="img/photo-1490376840453-5f616fbebe5b-370x193.jpeg"
                   alt=""
-                />
+                /></a>
               </div>
               <div class="date text-center">
                 <p class="date-n">03</p>
@@ -354,10 +340,10 @@
             </div>
             <div class="blog-main-item padding-bottom-32">
               <div class="blog-main-item-img">
-                <img
+                <a title="Watch full" href=""><img  class="dat-img"
                   src="img/photo-1517520287167-4bbf64a00d66-370x193.jpeg"
                   alt=""
-                />
+                /></a>
               </div>
               <div class="date text-center">
                 <p class="date-n">09</p>
@@ -378,10 +364,10 @@
             </div>
             <div class="blog-main-item padding-bottom-32">
               <div class="blog-main-item-img">
-                <img
+                <a title="Watch full" href=""><img class="dat-img"
                   src="img/photo-1495968283540-e1df41995ba6-370x193x.jpeg"
                   alt=""
-                />
+                /></a>
               </div>
               <div class="date text-center">
                 <p class="date-n">03</p>
@@ -402,7 +388,7 @@
             </div>
             <div class="blog-main-item padding-bottom-32">
               <div class="blog-main-item-img">
-                <img src="img/cat_3-370x193.jpg" alt="" />
+                <a title="Watch full" href=""><img class="dat-img" src="img/cat_3-370x193.jpg" alt="" /></a>
               </div>
               <div class="date text-center">
                 <p class="date-n">03</p>
@@ -423,10 +409,10 @@
             </div>
             <div class="blog-main-item padding-bottom-32">
               <div class="blog-main-item-img">
-                <img
+                <a title="Watch full" href=""><img class="dat-img"
                   src="img/photo-1494522855154-9297ac14b55f-370x193xx.jpeg"
                   alt=""
-                />
+                /></a>
               </div>
               <div class="date text-center">
                 <p class="date-n">03</p>
@@ -447,7 +433,7 @@
             </div>
             <div class="blog-main-item padding-bottom-32">
               <div class="blog-main-item-img">
-                <img src="img/cat_4-370x193.jpg" alt="" />
+                <a title="Watch full" href=""><img class="dat-img" src="img/cat_4-370x193.jpg" alt="" /></a>
               </div>
               <div class="date text-center">
                 <p class="date-n">27</p>
@@ -468,10 +454,10 @@
             </div>
             <div class="blog-main-item padding-bottom-32">
               <div class="blog-main-item-img">
-                <img
+                <a title="Watch full" href=""><img class="dat-img"
                   src="img/photo-1512790182412-b19e6d62bc39-370x193xxx.jpeg"
                   alt=""
-                />
+                /></a>
               </div>
               <div class="date text-center">
                 <p class="date-n">27</p>
@@ -492,10 +478,10 @@
             </div>
             <div class="blog-main-item padding-bottom-32">
               <div class="blog-main-item-img">
-                <img
+                <a title="Watch full" href=""><img class="dat-img"
                   src="img/steven-lelham-342930-unsplash-min-370x193.jpg"
                   alt=""
-                />
+                /></a>
               </div>
               <div class="date text-center">
                 <p class="date-n">20</p>
@@ -516,10 +502,10 @@
             </div>
             <div class="blog-main-item padding-bottom-32">
               <div class="blog-main-item-img">
-                <img
+                <a title="Watch full" href=""><img class="dat-img"
                   src="img/xphoto-1509099836639-18ba1795216d-370x193.jpeg"
                   alt=""
-                />
+                /></a>
               </div>
               <div class="date text-center">
                 <p class="date-n">27</p>
