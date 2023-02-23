@@ -65,8 +65,17 @@
             </div>
           </div>
           <div class="nav-right-item">
-            <input type="text" placeholder="Tìm kiếm game..." value="" />
-            <button>Đăng nhập</button>
+            <div class="search-container">
+              <img src="img/search-icon.png" alt="" />
+              <input
+                type="text"
+                placeholder="Tìm kiếm game..."
+                class="search"
+              />
+            </div>
+            <div>
+              <button class="login-button">Đăng nhập</button>
+            </div>
           </div>
         </div>
       </div>
@@ -114,12 +123,21 @@
             <div class="main-items-text">
               <h1>COOKIE CONNECT</h1>
               <p>Loại game: <span>Casual Game</span></p>
-              <p>Nền tảng</p>
+              <p class="fle">
+                Nền tảng
+                <img
+                  src="https://gaka.vn/assets/images/icons/phone.png"
+                  alt=""
+                />
+              </p>
               <p>
                 Sàn đấu trí tuệ online, với hai kiểu đánh Cờ Tướng truyền thống
                 và Cờ Úp
               </p>
-              <button>Chơi ngay</button>
+              <div class="play-btn">
+                <img class="img-play-btn" src="img/play.png" alt="" />
+                <button class="btn-choi-ngay">Chơi ngay</button>
+              </div>
             </div>
           </div>
         </div>
@@ -413,7 +431,7 @@
       <div class="mcontainer">
         <div class="footer-upper">
           <img src="img/logo_footer.png" alt="" />
-          <h6 class="footer-contend">
+          <h6 class="footer-content">
             © 2021 Valve Corporation. All rights reserved. All trademarks are
             property of their respective owners in the US and other countries.
             VAT included in all prices where applicable.
@@ -432,7 +450,7 @@
           </div>
           <div class="footer-under-right">
             <h4>SUBSCRIBE</h4>
-            <input type="text" placeholder="Email" />
+            <input class="email" type="text" placeholder="Email" />
           </div>
         </div>
         <div class="copyright">
