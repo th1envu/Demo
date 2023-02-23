@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: #f4f5f7;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+}
+.nav-button {
+  width: 102px;
+  height: 36px;
+  position: relative;
+  padding-right: 20px;
+}
+.nav-button > img {
+  position: absolute;
+  width: 81px;
+  height: 26px;
+  left: 11px;
+  top: 3px;
+}
+.nav-left-item {
+  display: flex;
+  align-items: center;
+}
+.header {
+  background-color: #fff;
+  box-shadow: 2px #d9dbe1;
+}
+.header > .container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.menu-items-first {
+  padding-left: 30px !important;
+}
+.menu-items {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+}
+.menu-items > a {
+  display: flex;
+  align-items: center;
+}
+.menu-items > a > img {
+  padding-right: 2px;
+}
+.nap-gao-icon {
+  margin-top: 8px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.sub-main-img {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.sub-main-img > img {
+  max-width: 276px;
+  max-height: 140px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.main-items-img {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.main-items-text {
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+.bd {
+  border-radius: 20px;
+}
+.padding-right-25 {
+  margin-right: 25px;
+}
+.controller {
+  padding-bottom: 40px;
+}
+.controller-container {
+  width: 100%;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.controller-container > img {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.controller-content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 30%;
+  left: 20%;
+}
+.c-follow {
+  display: flex;
+  align-items: center;
+}
+.controller-img {
+  max-width: 36px;
+}
+.sub-main {
+  position: absolute;
+  top: 460px;
+  left: 120px;
+}
+.main {
+  padding-bottom: 120px;
+  padding-top: 10px;
+}
+.mcontainer {
+  width: 100%;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.color-red {
+  color: red;
+  font-weight: 650;
+}
+.fl {
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  color: rgb(250, 97, 97);
+}
+.fl > img {
+  padding-left: 5px;
+  margin-top: 5px;
+}
+.game {
+  padding-bottom: 40px;
+}
+.game-icon {
+  max-width: 32px;
+  padding-right: 8px;
+}
+.game-hot-icon {
+  max-width: 32px;
+  padding-right: 8px;
+}
+.game-moi-upper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.game-upper > h2 {
+  display: flex;
+  align-items: center;
+}
+.game-moi-under {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 25px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 12px;
+}
+.game-moi-under > div {
+  max-width: 14%;
+  padding-top: 20px;
+  padding-right: 18px;
+}
+.game-moi-img {
+  max-width: 108px;
+  max-height: 108px;
+  border-radius: 12px;
+}
+.game-moi-gamename {
+  text-align: center;
+}
+.game-hot-upper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.game-hot-under {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 25px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 12px;
+}
+.game-hot-under > div {
+  max-width: 30%;
+  padding-top: 20px;
+  padding-right: 18px;
+}
+.game-hot-img {
+  max-width: 234px;
+  max-height: 138px;
+  border-radius: 12px;
+}
+.game-app-upper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.game-app-under {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 25px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 12px;
+}
+.game-app-under > div {
+  max-width: 22%;
+  padding-top: 20px;
+  padding-right: 18px;
+}
+.game-app-img {
+  max-width: 171;
+  max-height: 171px;
+  border-radius: 12px;
+}
+.doi-tac > .mcontainer {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 12px;
+}
+.doi-tac-title {
+  text-align: center;
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.doi-tac-title::before {
+  position: absolute;
+  width: 200px;
+  height: 2px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), #000);
+  content: "";
+  top: 10px;
+  left: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.doi-tac-title::after {
+  position: absolute;
+  width: 200px;
+  height: 2px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), #000);
+  content: "";
+  top: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.doi-tac-icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.doi-tac-icon {
+  max-width: 100px;
+  max-height: 80px;
+  padding: 10px;
+}
+.doi-tac {
+  padding-bottom: 40px;
+}
+footer > .mcontainer {
+  border: 1px solid white;
+  background-color: #eeeff4;
+  border-radius: 12px;
+}
+.footer-upper {
+  position: relative;
+}
+.footer-upper::after {
+  width: 768px;
+  height: 1px;
+  position: absolute;
+  background-color: #d9dbe1;
+  content: "";
+  bottom: 0px;
+}
+.footer-upper {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.footer-upper > img {
+  padding: 10px;
+}
+.footer-under {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.footer-under-left > h4 {
+  padding-bottom: 10px;
+}
+.footer-under-right > h4 {
+  padding-bottom: 10px;
+}
+.copyright {
+  padding: 0 15px 15px 15px;
+}
+/*-------------------------*/
+.slideshow-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  max-height: 500px;
+  width: 100%;
+  overflow: hidden;
+}
+input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+}
+.images {
+  width: 1440px;
+  transition: 0.4s ease;
+}
+.images > img {
+  filter: brightness(0.7);
+  width: 100%;
+  height: 500px;
+}
+.navigator {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -33%;
+}
+.navigator .bar {
+  cursor: pointer;
+  margin-left: 8px;
+  margin-right: 20px;
+}
+.slides {
+  display: flex;
+  height: 100%;
+  width: 400%;
+}
+#btn1:checked ~ .first {
+  margin-left: 0;
+}
+#btn2:checked ~ .first {
+  margin-left: -25%;
+}
+#btn3:checked ~ .first {
+  margin-left: -50%;
+}
+#btn4:checked ~ .first {
+  margin-left: -75%;
+}
+.label-img {
+  width: 276px;
+  height: 140px;
+  border-radius: 12px;
+}
