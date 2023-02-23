@@ -448,3 +448,54 @@ input[type="radio"] {
   height: 140px;
   border-radius: 12px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .menu-items > a {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .label-img {
+    width: 200px;
+    height: 110px;
+    border-radius: 12px;
+  }
+  .main-items-text {
+    top: 30%;
+    left: 10%;
+  }
+  .navigator {
+    left: 50%;
+    bottom: -60%;
+  }
+  .images {
+    max-width: 25%;
+  }
+  .images > img {
+    max-width: 100%;
+  }
+  #btn1:checked ~ .first {
+    margin-left: 0;
+  }
+  #btn2:checked ~ .first {
+    margin-left: -25%;
+  }
+  #btn3:checked ~ .first {
+    margin-left: -50%;
+  }
+  #btn4:checked ~ .first {
+    margin-left: -75%;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .main-items-text {
+    top: 20%;
+    left: 25%;
+  }
+  .navigator {
+    left: 50%;
+    bottom: 10%;
+  }
+}
